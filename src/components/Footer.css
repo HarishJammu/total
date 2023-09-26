@@ -1,0 +1,77 @@
+/* Footer Container */
+.footer {
+    background-color: #033a78d3;
+    color: #ffffff;
+    font-size: 1.35rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Footer Title */
+  .footer-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer Links */
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Contact Address */
+  .footer-contact-address {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* Footer Social Media Icons */
+  .socials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  /* Footer Payment Methods */
+  .pay img {
+    max-width: 200px;
+    height: auto;
+    margin-top: 1rem;
+  }
+  
+  /* Footer Copyright */
+  .footer hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer p.text-center {
+    font-size: 0.5rem;
+    margin-bottom: 0;
+  }
+  
+  /* Footer Responsive Adjustments */
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+  
+    .footer .row {
+      justify-content: center;
+    }
+  
+    .footer .col-md-3,
+    .footer .col-md-4 {
+      margin-bottom: 2rem;
+    }
+  
+    .footer .col-md-3 {
+      text-align: center;
+    }
+  }
+  
